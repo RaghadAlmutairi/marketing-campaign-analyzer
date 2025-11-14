@@ -147,5 +147,5 @@ Open the Jupyter notebook and run the cells sequentially:
 
 ## Acknowledgments
 
-- Dataset source: [Kaggle - Superstore Dataset]((https://www.kaggle.com/datasets/ahsan81/superstore-marketing-campaign-dataset))
+- Dataset source: [Kaggle - Superstore Dataset](https://www.kaggle.com/datasets/ahsan81/superstore-marketing-campaign-dataset)
 - Built with scikit-learn, pandas, and other open-source Python libraries
