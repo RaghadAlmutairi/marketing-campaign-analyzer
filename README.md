@@ -88,34 +88,6 @@ scikit-learn>=0.24.0
 imbalanced-learn>=0.8.0
 ```
 
-### Setup Instructions
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yourusername/superstore-prediction.git
-   cd superstore-prediction
-   ```
-
-2. **Create a virtual environment (optional but recommended):**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies:**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Prepare the dataset:**
-   - Download the dataset from [Kaggle](https://www.kaggle.com/datasets/iamsouravbanerjee/superstore-dataset)
-   - Place `superstore_data.csv` in the project directory
-
-5. **Run the Jupyter notebook:**
-   ```bash
-   jupyter notebook superstore-newproject.ipynb
-   ```
-
 ## Usage
 
 Open the Jupyter notebook and run the cells sequentially:
@@ -163,15 +135,6 @@ Open the Jupyter notebook and run the cells sequentially:
 - [ ] Hyperparameter tuning with Bayesian optimization
 - [ ] Analyze feature importance and model explainability (SHAP)
 
-## File Structure
-
-```
-superstore-prediction/
-├── README.md                          # This file
-├── requirements.txt                   # Python dependencies
-├── superstore-newproject.ipynb        # Main Jupyter notebook
-└── superstore_data.csv               # Dataset (add after download)
-```
 
 ## Key Visualizations
 
@@ -181,23 +144,8 @@ superstore-prediction/
 - **Pie Charts:** Show categorical variable distributions (Education)
 - **Category Plots:** Count plots for categorical variables (Marital Status)
 
-## Author
-
-Created as part of a Pattern Recognition course project (Semester 7)
-
-## License
-
-This project is open source and available under the MIT License.
 
 ## Acknowledgments
 
 - Dataset source: [Kaggle - Superstore Dataset](https://www.kaggle.com/datasets/iamsouravbanerjee/superstore-dataset)
 - Built with scikit-learn, pandas, and other open-source Python libraries
-
-## Contact & Support
-
-For questions or issues, please open an issue on GitHub or contact the repository owner.
-
----
-
-**Last Updated:** November 2024
